@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+.bgHome {
+  background-color: black;
+}
+
 .containerLogin {
   height: 90vh;
   background-color: black;
@@ -13,10 +17,20 @@ body {
   background-color: rgb(33, 32, 32);
 }
 
+.formInput {
+  background-color: rgb(67, 66, 66) !important;
+  color: rgb(213, 209, 209) !important;
+  border-color: rgb(67, 66, 66) !important;
+}
+
+::placeholder {
+  color: rgb(210, 206, 206) !important;
+}
+
 .buttonLogin {
   background-color: rgb(189, 30, 30) !important;
   border: none;
-  color: white;
+  color: rgb(199, 198, 198);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -53,4 +67,20 @@ body {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.navbarBg {
+  background-color: black !important;
+}
+
+.bgProduct {
+  background-color: black !important;
+}
+
+.bgCard {
+  border: none !important;
+}
+
+.cardPrice {
+  border-radius: 5px !important;
 }
