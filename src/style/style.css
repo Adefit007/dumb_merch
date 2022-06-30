@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+}
+
+.containerLogin {
+  height: 90vh;
+  background-color: black;
+  background-size: cover;
+}
+
+.formLogin {
+  width: 300px;
+  background-color: rgb(33, 32, 32);
+}
+
+.buttonLogin {
+  background-color: rgb(189, 30, 30) !important;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.buttonLeft {
+  background-color: rgb(189, 30, 30) !important;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttonLeft1 {
+  background-color: black !important;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
