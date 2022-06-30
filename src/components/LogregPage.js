@@ -42,7 +42,7 @@ const LogregPage = () => {
             <Col xs={12} md={5}>
               <div className=" align-items-center justify-content-center py-5">
                 <Container className="py-5 px-3 justify-content-center">
-                  <Login />
+                  <Register />
                 </Container>
               </div>
             </Col>
