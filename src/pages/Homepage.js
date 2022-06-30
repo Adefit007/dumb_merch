@@ -1,5 +1,5 @@
-import NavbarProduct from "./Navbar";
-import ProductPage from "./ProductPage";
+import NavbarProduct from "../components/Navbar";
+import ProductPage from "../components/ProductPage";
 
 const Homepage = () => {
   return (
