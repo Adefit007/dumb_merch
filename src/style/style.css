@@ -89,3 +89,11 @@ body {
 .descProduct {
   text-align: justify;
 }
+
+.detailTransaction p {
+  font-size: 12px !important;
+}
+
+.bgTransac {
+  background-color: rgb(40, 39, 39) !important;
+}
