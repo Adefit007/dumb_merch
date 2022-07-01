@@ -3,11 +3,12 @@ body {
 }
 
 .bgHome {
+  height: 100vh;
   background-color: black;
 }
 
 .containerLogin {
-  height: 90vh;
+  height: 100vh;
   background-color: black;
   background-size: cover;
 }
@@ -83,4 +84,8 @@ body {
 
 .cardPrice {
   border-radius: 5px !important;
+}
+
+.descProduct {
+  text-align: justify;
 }

@@ -6,15 +6,15 @@ import Register from "../components/Register";
 const LogregPage = () => {
   return (
     <div className="containerLogin">
-      <div className=" mt-4">
-        <Container xs={6} md={12} className="mt-5 ">
+      <div className=" mt-0">
+        <Container xs={6} md={12} className="pt-5 ">
           <Row>
             <Col xs={12} md={7}>
               <div className="fluid align-items-center justify-content-center ms-4 pt-3">
-                <div className="d-flex align-items-center mt-3">
+                <div className="d-flex align-items-center ">
                   <img
                     src={logo}
-                    style={{ maxWidth: "200px" }}
+                    style={{ height: "auto", width: "50%" }}
                     className="fluid"
                     alt="logo"
                   />
@@ -26,7 +26,7 @@ const LogregPage = () => {
                 <p className="text-white-50 mt-0">
                   the biggest merchandise in Indonesia
                 </p>
-                <div className="mt-5">
+                <div className="mt-3">
                   <button
                     type="button"
                     className="buttonLeft me-3 text-white-50 "

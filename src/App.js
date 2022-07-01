@@ -9,9 +9,9 @@ import Homepage from "./pages/Homepage";
 
 function App() {
   return (
-    <div className="bg-dark">
-      <LogregPage />
-      {/* <Homepage /> */}
+    <div className="bg-dark mw-100">
+      {/* <LogregPage /> */}
+      <Homepage />
     </div>
   );
 }
