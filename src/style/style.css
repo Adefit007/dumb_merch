@@ -97,3 +97,29 @@ body {
 .bgTransac {
   background-color: rgb(40, 39, 39) !important;
 }
+
+.buttonList {
+  background-color: rgb(81, 170, 81) !important;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.buttonList1 {
+  background-color: rgb(199, 68, 68) !important;
+  border: none;
+  color: white;
+  padding: 5px 13px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
