@@ -123,3 +123,25 @@ body {
   font-size: 14px;
   cursor: pointer;
 }
+
+.formInputDetail {
+  background-color: rgb(67, 66, 66) !important;
+  color: rgb(213, 209, 209) !important;
+  border-color: rgb(181, 178, 178) !important;
+  border-radius: 5px !important;
+}
+
+.buttonLoginDeatil {
+  background-color: rgb(81, 170, 81) !important;
+  border: none;
+  color: rgb(199, 198, 198);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
