@@ -1,9 +1,11 @@
 import React from "react";
 import { Form, Button, Container } from "react-bootstrap";
+import NavbarAdmin from "../components/NavbarAdmin";
 
 function EditProduct() {
   return (
-    <div>
+    <div className="bgHome">
+      <NavbarAdmin />
       <Container className="container-fluid">
         <h3 className="text-white mt-4">Edit Product</h3>
         <Button variant="danger" className="my-3">

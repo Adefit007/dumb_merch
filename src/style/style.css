@@ -13,6 +13,12 @@ body {
   background-size: cover;
 }
 
+nav a.active {
+  color: rgb(189, 30, 30) !important;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .formLogin {
   width: 300px;
   background-color: rgb(33, 32, 32);

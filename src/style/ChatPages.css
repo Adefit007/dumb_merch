@@ -1,0 +1,61 @@
+body {
+  background-color: #000000;
+  min-height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  width: 5px;
+  background: #555555;
+}
+::-webkit-scrollbar-thumb {
+  width: 1em;
+  background-color: #ddd;
+  outline: 1px solid slategrey;
+  border-radius: 1rem;
+}
+.text-small {
+  font-size: 0.9rem;
+}
+.messages-box,
+.chat-box {
+  height: 450px;
+  overflow-y: scroll;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+input::placeholder {
+  font-size: 0.9rem;
+  color: #999;
+}
+strong {
+  color: blue;
+}
+
+.media-body {
+  margin-left: 10px;
+}
+
+.small {
+  margin-left: 250px;
+}
+
+.user,
+.date {
+  color: white;
+}
+
+.bubble {
+  margin-top: 20px;
+}
+
+.bubble-user {
+  margin-top: 250px;
+  margin-left: 500px;
+}
+
+.bg-color {
+  background-color: gray;
+}

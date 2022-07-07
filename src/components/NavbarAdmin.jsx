@@ -1,5 +1,6 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from "../assets/logo.png";
+import { NavLink } from "react-router-dom";
 
 const NavbarAdmin = () => {
   return (
@@ -7,15 +8,47 @@ const NavbarAdmin = () => {
       <Navbar className="navbarBg">
         <Container>
           <Navbar.Brand>
-            <img src={logo} style={{ maxWidth: "50px" }} alt="logobrand" />
+            <NavLink
+              to="/product"
+              activeClassName="active"
+              className="text-white text-decoration-none mx-2"
+            >
+              <img src={logo} style={{ maxWidth: "50px" }} alt="logobrand" />
+            </NavLink>
           </Navbar.Brand>
           <Nav>
-            <Nav.Link className="text-white ">Complain</Nav.Link>
-            <Nav.Link className="text-danger">
-              <b>Category</b>
+            <Nav.Link className="text-white ">
+              <NavLink
+                to="/complain-admin"
+                activeClassName="active"
+                className="text-white text-decoration-none mx-2"
+              >
+                Complain
+              </NavLink>
             </Nav.Link>
-            <Nav.Link className="text-white ">Product</Nav.Link>
-            <Nav.Link className="text-white">Logout</Nav.Link>
+            <Nav.Link className="text-danger">
+              <NavLink
+                to="/category"
+                activeClassName="active"
+                className="text-white text-decoration-none"
+              >
+                Category
+              </NavLink>
+            </Nav.Link>
+            <Nav.Link className="text-white ">
+              <NavLink
+                to="/product"
+                activeClassName="active"
+                className="text-white text-decoration-none mx-2"
+              >
+                Product
+              </NavLink>
+            </Nav.Link>
+            <Nav.Link className="text-white">
+              <NavLink to="/signin" className="text-white text-decoration-none">
+                Logout
+              </NavLink>
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>

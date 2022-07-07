@@ -1,4 +1,5 @@
 import { Form } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -16,9 +17,11 @@ const Login = () => {
           placeholder="Password"
         />
       </Form.Group>
-      <button className="buttonLogin " type="submit">
-        Login
-      </button>
+      <Link to="/">
+        <button className="buttonLogin " type="submit">
+          Login
+        </button>
+      </Link>
     </Form>
   );
 };
